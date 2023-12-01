@@ -66,4 +66,4 @@
   <h1>Thankyou, Happy Learning</h1>
 </form>
 
-<p>Applicatio build automatically</p>
+<p>Application build automatically</p>
