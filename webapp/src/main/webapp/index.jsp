@@ -65,7 +65,3 @@
 
   <h1>Thankyou, Happy Learning</h1>
 </form>
-
-<p>Application build automatically</p>
-<p>New changes happedned here</p>
-<p>Make sure that code run</p>
