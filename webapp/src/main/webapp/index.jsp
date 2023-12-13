@@ -145,7 +145,6 @@
       </div>
 
       <h1>Thankyou, Happy Learning</h1>
-      <h1>Pipeline TEST</h1>
     </form>
   </body>
 </html>
