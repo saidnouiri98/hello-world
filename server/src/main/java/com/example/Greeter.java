@@ -9,7 +9,7 @@ public class Greeter {
    * This is a constructor.
    */
   public Greeter() {
-
+    // This comment for testing SonarQube Quality Gate
   }
 
   //TODO: Add javadoc comment
