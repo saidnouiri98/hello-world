@@ -1,0 +1,227 @@
+﻿Diagnose log at 2026-07-14T07:45:26Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+MSYSTEM_CHOST=x86_64-w64-mingw32
+_=C:/Program Files/Git/mingw64/bin/git
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+ORIGINAL_TMP=C:/Users/SAIDNO~1/AppData/Local/Temp
+PUBLIC=C:\Users\Public
+ALLUSERSPROFILE=C:\ProgramData
+LOGONSERVER=\\S-NOUIRI
+INFOPATH=C:\Program Files\Git\mingw64\local\info;C:\Program Files\Git\mingw64\share\info;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+LOCALAPPDATA=C:\Users\SaidNOUIRI\AppData\Local
+ProgramData=C:\ProgramData
+ZES_ENABLE_SYSMAN=1
+MAVEN_HOME=C:\MAVEN\apache-maven-3.9.11
+PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+TMPDIR=C:\Users\SAIDNO~1\AppData\Local\Temp
+ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SaidNOUIRI\bin;C:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\SaidNOUIRI\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\MAVEN\apache-maven-3.9.11\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\nginx-1.28.0;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Pandoc;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Python313;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Launcher;C:\Users\SaidNOUIRI\AppData\Local\Microsoft\WindowsApps;C:\Users\SaidNOUIRI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SaidNOUIRI\AppData\Roaming\npm;C:\Users\SaidNOUIRI\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\SaidNOUIRI\AppData\Local\Programs\Ollama;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.4.1\bin;C:\Users\SaidNOUIRI\AppData\Local\Programs\mongosh;C:\MAVEN\apache-maven-3.9.11\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\ProgramData\chocoportable\bin;C:\ProgramData\chocolatey\bin;C:\Users\SaidNOUIRI\AppData\Local\Programs\cursor\resources\app\bin
+WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+ProgramW6432=C:\Program Files
+MINGW_PREFIX=C:/Program Files/Git/mingw64
+SYSTEMROOT=C:\WINDOWS
+OLLAMA_HOST=0.0.0.0
+MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+WINDIR=C:\WINDOWS
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+MSYSTEM=MINGW64
+OS=Windows_NT
+PROCESSOR_ARCHITECTURE=x86
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+SHLVL=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+DISPLAY=needs-to-be-defined
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\
+ORIGINAL_TEMP=C:/Users/SAIDNO~1/AppData/Local/Temp
+CommonProgramW6432=C:\Program Files\Common Files
+ProgramFiles(x86)=C:\Program Files (x86)
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+MSYSTEM_CARCH=x86_64
+USERNAME=SaidNOUIRI
+NVM_HOME=C:\Users\SaidNOUIRI\AppData\Local\nvm
+GIT_ASKPASS=c:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+MINGW_CHOST=x86_64-w64-mingw32
+TERM=xterm-256color
+LANG=en_US.UTF-8
+PROMPT=$P$G
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Users\SaidNOUIRI\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SaidNOUIRI\bin;C:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\SaidNOUIRI\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\SaidNOUIRI\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\MAVEN\apache-maven-3.9.11\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\nginx-1.28.0;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Pandoc;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Python313;C:\Users\SaidNOUIRI\AppData\Local\Programs\Python\Launcher;C:\Users\SaidNOUIRI\AppData\Local\Microsoft\WindowsApps;C:\Users\SaidNOUIRI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SaidNOUIRI\AppData\Roaming\npm;C:\Users\SaidNOUIRI\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\SaidNOUIRI\AppData\Local\Programs\Ollama;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.4.1\bin;C:\Users\SaidNOUIRI\AppData\Local\Programs\mongosh;C:\MAVEN\apache-maven-3.9.11\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot\bin;C:\ProgramData\chocoportable\bin;C:\ProgramData\chocolatey\bin;C:\Users\SaidNOUIRI\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+WT_SESSION=79105800-9026-4cce-bdf6-f5dd4a651c39
+OneDrive=C:\Users\SaidNOUIRI\OneDrive - Timsoft Group
+PSModulePath=C:\Users\SaidNOUIRI\OneDrive - Timsoft Group\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PROCESSOR_REVISION=aa04
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PWD=C:/projects/SonarQube/hello-world
+APPDATA=C:\Users\SaidNOUIRI\AppData\Roaming
+COMPUTERNAME=S-NOUIRI
+DriverData=C:\Windows\System32\Drivers\DriverData
+ChocolateyLastPathUpdate=134086195827343480
+PLINK_PROTOCOL=ssh
+PROCESSOR_LEVEL=6
+EXEPATH=C:\Program Files\Git\bin
+NVM_SYMLINK=C:\nvm4w\nodejs
+HOMEDRIVE=C:
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=C:/Program Files/Git/mingw64/include
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=C:/Program Files/Git/mingw64/lib
+PROGRAMFILES=C:\Program Files (x86)
+OLDPWD=C:/projects/SonarQube
+SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe
+USERPROFILE=C:\Users\SaidNOUIRI
+GIT_TRACE2_PARENT_SID=38099ca6-32a3-44fc-bbc4-3bc66f296ef7
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+COPILOT_DEBUG_NONCE=2a9c59a9a0fa2a1466c0a8efe4cac6ad
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+SESSIONNAME=Console
+TMP=C:\Users\SAIDNO~1\AppData\Local\Temp
+TERM_PROGRAM_VERSION=1.128.0
+HOSTNAME=S-NOUIRI
+TERM_PROGRAM=vscode
+USERDOMAIN=AzureAD
+NUMBER_OF_PROCESSORS=22
+PS1=\[]633;A\]\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ \[]633;B\]
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_24640_DSQBFLZOVGMIZEHQ
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+SYSTEMDRIVE=C:
+IntelliJ IDEA Community Edition=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.4.1\bin;
+VSCODE_GIT_ASKPASS_NODE=C:\Users\SaidNOUIRI\AppData\Local\Programs\Microsoft VS Code\Code.exe
+USERDOMAIN_ROAMINGPROFILE=AzureAD
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+ChocolateyInstall=C:\ProgramData\chocolatey
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-66cb4ab8d1-sock
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+HOMEPATH=\Users\SaidNOUIRI
+COLORTERM=truecolor
+HOME=C:\Users\SaidNOUIRI
+MSYSTEM_PREFIX=C:/Program Files/Git/mingw64
+PROCESSOR_ARCHITEW6432=AMD64
+TEMP=C:\Users\SAIDNO~1\AppData\Local\Temp
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\SaidNOUIRI\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\SaidNOUIRI\AppData\Local\Temp\2aa74349bbfa735bf2398fba'... OK
+Reading from temporary file 'C:\Users\SaidNOUIRI\AppData\Local\Temp\2aa74349bbfa735bf2398fba'... OK
+Deleting temporary file 'C:\Users\SaidNOUIRI\AppData\Local\Temp\2aa74349bbfa735bf2398fba'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\SaidNOUIRI
+UserDataDirectoryPath: C:\Users\SaidNOUIRI\.gcm
+GetCurrentDirectory(): C:\projects\SonarQube\hello-world
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:59856/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.50.0.windows.1'
+Locating current repository...Git repository at 'C:/projects/SonarQube/hello-world/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/SaidNOUIRI/.gitconfig	core.autocrlf=false
+file:C:/Users/SaidNOUIRI/.gitconfig	user.name=Said Nouiri
+file:C:/Users/SaidNOUIRI/.gitconfig	user.email=s.nouiri@timsoft-group.com
+file:C:/Users/SaidNOUIRI/.gitconfig	credential.https://bitbucket.satoripop.io.provider=bitbucket
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/saidnouiri98/hello-world.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/master
+file:.git/config	branch.master.vscode-merge-base=origin/master
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\SaidNOUIRI\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\SaidNOUIRI\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
