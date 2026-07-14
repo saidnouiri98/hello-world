@@ -2,85 +2,79 @@ package com.example;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
-import java.util.ArrayList;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.List;
+import java.util.Objects;
 
 /**
- * This is a class.
+ * Provides greeting functionality.
  */
 public class Greeter {
 
-  private String defaultName; // Not initialized → potential NPE
+    private final String defaultName;
 
-  // Hardcoded credentials (Security issue)
-  private static final String DB_URL = "jdbc:mysql://localhost:3306/test";
-  private static final String USER = "root";
-  private static final String PASSWORD = "root123";
-
-  /**
-   * This is a constructor.
-   */
-  public Greeter() {
-    // Empty constructor
-  }
-
-  // Missing Javadoc
-  public String greet(String someone) {
-
-    // Possible NullPointerException
-    if (someone.equals("admin")) {
-      System.out.println("Admin login detected");
+    /**
+     * Creates a Greeter with a default name.
+     *
+     * @param defaultName the default name used when no name is provided
+     */
+    public Greeter(String defaultName) {
+        this.defaultName = Objects.requireNonNull(defaultName, "defaultName must not be null");
     }
 
-    // Unused variable
-    int unused = 42;
+    /**
+     * Returns a greeting message for the provided name.
+     *
+     * @param someone the name to greet
+     * @return greeting message
+     */
+    public String greet(String someone) {
+        String nameToUse = (someone == null || someone.isBlank())
+                ? defaultName
+                : someone;
 
-    // Hardcoded sensitive information
-    String secret = "mySecretPassword";
-
-    // SQL Injection vulnerability
-    try {
-      Connection conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
-      Statement stmt = conn.createStatement();
-      stmt.executeQuery("SELECT * FROM users WHERE name = '" + someone + "'");
-      // Resource leak: conn and stmt never closed
-    } catch (Exception e) {
-      e.printStackTrace(); // Poor exception handling
+        return String.format("Hello, %s!", nameToUse);
     }
 
-    // Code duplication
-    if (someone != null && someone.length() > 0) {
-      return "Hello, " + someone + "!";
-    }
-    if (someone != null && someone.length() > 0) {
-      return "Hello, " + someone + "!";
-    }
-
-    return "Hello, " + defaultName.toUpperCase(); // Possible NPE
-  }
-
-  // High cognitive complexity + bad practice
-  public void complicatedMethod(List<String> names) {
-    if (names != null) {
-      for (String name : names) {
-        if (name != null) {
-          if (name.length() > 3) {
-            if (!name.isEmpty()) {
-              if (name.startsWith("A")) {
-                System.out.println(name);
-              }
-            }
-          }
+    /**
+     * Prints names that start with the letter 'A' and have more than 3 characters.
+     *
+     * @param names list of names
+     */
+    public void printValidNames(List<String> names) {
+        if (names == null) {
+            return;
         }
-      }
-    }
-  }
 
-  // Infinite loop (major bug)
-  public void infiniteLoop() {
-    while (true) {
-      System.out.println("Running...");
+        names.stream()
+                .filter(Objects::nonNull)
+                .filter(name -> name.length() > 3)
+                .filter(name -> name.startsWith("A"))
+                .forEach(System.out::println);
     }
-  }
+
+    /**
+     * Demonstrates safe database query usage.
+     *
+     * Note: In real applications, credentials should come from environment
+     * variables or a secure configuration service.
+     *
+     * @param dbUrl database URL
+     * @param user database username
+     * @param password database password
+     * @param name name to query
+     * @throws SQLException if a database error occurs
+     */
+    public void queryUser(String dbUrl, String user, String password, String name) throws SQLException {
+
+        String sql = "SELECT * FROM users WHERE name = ?";
+
+        try (Connection connection = DriverManager.getConnection(dbUrl, user, password);
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+
+            preparedStatement.setString(1, name);
+            preparedStatement.executeQuery();
+        }
+    }
 }
